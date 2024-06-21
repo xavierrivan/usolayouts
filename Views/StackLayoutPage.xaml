@@ -1,0 +1,11 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="usolayouts.StackLayoutPage">
+    <StackLayout>
+        <Label Text="Small Text" FontSize="Small" />
+        <Label Text="Medium Text" FontSize="Medium" />
+        <Label Text="Large Text" FontSize="Large" />
+        <Button Text="Go to FlexLayout"
+                Clicked="OnFlexLayoutButtonClicked" />
+    </StackLayout>
+</ContentPage>
